@@ -23,7 +23,7 @@ If you have pnpm correctly installed globalled, it is pretty straightforward:
 
 Structure of the repository for a higher picture:
 
-
+```bash
 ├── jsconfig.json
 ├── next.config.mjs
 ├── package.json
@@ -47,4 +47,4 @@ Structure of the repository for a higher picture:
     │   └── server_utils.js
     └── utils
         └── cors.js
-
+```
