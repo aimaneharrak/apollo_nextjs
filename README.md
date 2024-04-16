@@ -3,6 +3,7 @@ This is a small project which shows how apollo client, and apollo server can be 
 This project is largely inspired by [this hackernoon article](https://hackernoon.com/setting-up-a-graphql-server-and-client-in-nextjs).
 
 However, this is adapted for app router and Next JS 14.
+Some parts needed to change, namely the CORS function, and the ApolloProvider which needed to call an experimental package (see package.json).
 
 
 I have constructed this project as I needed to produce a GraphQL API for a Next JS 14 project, using the app routing.
