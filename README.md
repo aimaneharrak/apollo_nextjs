@@ -14,10 +14,10 @@ The UI is the one from the article cited above, produced with package @nextui-or
 > Be careful to use a compatible version of the package @nextui-org/react (the one in package.json for example) 
 
 
-If you have pnpm correctly installed globalled, it is pretty straightforward:
+If you have pnpm correctly installed globally, it is pretty straightforward:
     
-    1 - `pnpm install`
-    2 - `pnpm dev` -> http://localhost:3000/ by default for nextjs 
+1 - `pnpm install`
+2 - `pnpm dev` -> http://localhost:3000/ by default for nextjs 
 
 > This is not done in TypeScript, but this may change.
 
