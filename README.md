@@ -16,8 +16,8 @@ The UI is the one from the article cited above, produced with package @nextui-or
 
 If you have pnpm correctly installed globally, it is pretty straightforward:
     
-1 - `pnpm install`
-2 - `pnpm dev` -> http://localhost:3000/ by default for nextjs 
+1. `pnpm install`
+2. `pnpm dev` -> http://localhost:3000/ by default for nextjs 
 
 > This is not done in TypeScript, but this may change.
 
