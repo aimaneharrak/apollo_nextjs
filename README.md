@@ -20,3 +20,31 @@ If you have pnpm correctly installed globalled, it is pretty straightforward:
     2 - `pnpm dev` -> http://localhost:3000/ by default for nextjs 
 
 > This is not done in TypeScript, but this may change.
+
+Structure of the repository for a higher picture:
+
+`
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── README.md
+└── src
+    ├── app
+    │   ├── api
+    │   │   └── graphql
+    │   │       └── route.js
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── layout.js
+    │   ├── page.js
+    │   └── page.module.css
+    ├── graphql
+    │   ├── apollo_wrapper.js
+    │   ├── queries
+    │   │   ├── getUsers.gql
+    │   │   └── searchUser.gql
+    │   └── server_utils.js
+    └── utils
+        └── cors.js
+`
